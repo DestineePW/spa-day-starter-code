@@ -16,6 +16,7 @@ public class SpaDayController {
         return "serviceSelection";
     }
 
+
     @PostMapping
     public String spaMenu(@RequestParam String skintype, @RequestParam String manipedi, Model model) {
 
